@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 8rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/PUBG-Large.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.download-files {
+  font-size: 4rem;
+  padding: 4rem 0;
+}
+
+.global-version {
+  font-size: 2rem;
+  border-bottom: 2rem;
+}
+
+.row {
+  margin-top: 3rem;
+  border: solid 1rem #fc5404;
+}
+
+.box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-content {
+  border: solid 0.5rem #f9b208;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: solid #fc5404;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.download-link:hover {
+  background-color: #fc5404;
+  border-radius: 0.5rem;
+  transform: translateY(-0.3rem);
+}
+
+/* changes  */
+.showmore-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: solid #6b2200;
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+
+.showmore-link:hover {
+  background-color: #692100;
+  border-radius: 0.5rem;
+  transform: translateY(-0.3rem);
+}
+
+.showmore {
+  margin-top: 2rem;
+}
+
+/* for mobile display */
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .download-files {
+    font-size: 2rem;
+    border-bottom: 1px solid #fc5404;
+  }
+
+  .row {
+    margin-top: 3rem;
+    border: 0;
+  }
+
+  .box {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-content {
+    border: solid 0.5rem #f9b208;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .global-version {
+    padding-top: 2rem;
+  }
+
+  .showmore {
+    margin-top: .5rem;
+  }
+}
+
+/* for ipad display */
+
+@media (max-width: 900px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .box-content{
+    width: 90%;
+  }
+
+}
